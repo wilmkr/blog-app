@@ -6,18 +6,13 @@
 		</button>
 		<div class="collapse navbar-collapse" id="navbarNav">
 			<ul class="navbar-nav">
-				<li class="nav-item">
-					<a class="nav-link" aria-current="page" href="/">Home</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="/about">About</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="/services">Services</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="/posts">Blog</a>
-				</li>
+				<li class="nav-item"><a class="nav-link" aria-current="page" href="/">Home</a></li>
+				<li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+				<li class="nav-item"><a class="nav-link" href="/services">Services</a></li>
+				<li class="nav-item"><a class="nav-link" href="/posts">Blog</a></li>
+			</ul>
+			<ul class="navbar-nav ms-auto">
+				<li><a class="nav-link" href="/posts/create">Create Post</a></li>
 			</ul>
 		</div>
 	</div>

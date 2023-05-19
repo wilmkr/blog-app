@@ -9,6 +9,7 @@
 	<body>
 		@include('includes.navbar')
 		<div class="container mt-4">
+			@include('includes.messages')
 		    @yield('content')
 		</div>
 
